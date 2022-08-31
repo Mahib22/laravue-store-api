@@ -25,7 +25,7 @@
 
                 <li class="menu-title">Transaksi</li>
                 <li class="">
-                    <a href="#"> <i class="menu-icon fa fa-list"></i>Lihat Transaksi</a>
+                    <a href="{{ route('transactions.index') }}"> <i class="menu-icon fa fa-list"></i>Lihat Transaksi</a>
                 </li>
 
                 @auth
